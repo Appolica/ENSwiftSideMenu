@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc      = true
   s.platform = :ios, "8.0"
   s.source   = { :git => "https://github.com/evnaz/ENSwiftSideMenu.git", :tag => "0.1.3"}
-  s.source_files      = "Library/ENSideMenu.swift", "Library/ENSideMenuNavigationController.swift"
+  s.source_files      = "Library/ENSideMenu.swift", "Library/ENSideMenuNavigationController.swift", "Library/Extensions.swift"
 
 end
