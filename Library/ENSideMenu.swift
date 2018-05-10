@@ -381,7 +381,7 @@ open class ENSideMenu : NSObject, UIGestureRecognizerDelegate {
             case .right:
                 destFrame = CGRect(x: (shouldOpen) ? width-menuWidth : width+2.0, y: 0, width: menuWidth, height: height)
             case .top:
-                destFrame = CGRect(x: 0, y: (shouldOpen) ? -2.0 : -menuHeight, width: width, height: menuHeight)
+                destFrame = CGRect(x: 0, y: (shouldOpen) ? 0 : -menuHeight, width: width, height: menuHeight)
             }
             
             UIView.animate(
